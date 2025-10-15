@@ -2,9 +2,10 @@
   "name": "backdep",
   "version": "1.0.0",
   "description": "a backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": " node index.js"
+    "start": " nodemon src/index.js"
   },
   "keywords": [
     "node"
@@ -15,5 +16,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
